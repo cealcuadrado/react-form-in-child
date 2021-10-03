@@ -1,9 +1,12 @@
 import React from 'react';
+import Main from '../main/Main';
 
 class Layout extends React.Component {
     render() {
         return (
-            <p>Hola, mundo!</p>
+          <div>
+            <Main />
+          </div>
         );
     }
 }
